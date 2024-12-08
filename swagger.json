@@ -1,0 +1,32 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Hello world from REST API with Python",
+        "description": "Hello world from REST API with Python"
+    },
+    "host": "localhost:5000",
+    "basePath": "/",
+    "schemes": ["http"],
+    "paths": {
+        "/api/hello": {
+            "get": {
+                "summary": "Hello world from REST API with Python",
+                "responses": {
+                    "200": {
+                        "description": "Successfully",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "message": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
