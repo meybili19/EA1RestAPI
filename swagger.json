@@ -9,7 +9,7 @@
     "basePath": "/",
     "schemes": ["http"],
     "paths": {
-        "/api/hello": {
+        "/hello": {
             "get": {
                 "summary": "Hello world from REST API with Python",
                 "responses": {
@@ -29,4 +29,3 @@
         }
     }
 }
-
