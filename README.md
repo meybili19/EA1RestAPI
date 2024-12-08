@@ -19,9 +19,17 @@ Antes de ejecutar este proyecto, asegúrate de tener instalados los siguientes p
 ## Ejecución Manual desde el Código
 
 1. **Descargar el Proyecto desde GitHub**:
-
+    1.1. Descargando archivo zip
    - Ve al repositorio en GitHub y haz clic en **"Code"**. Luego selecciona **"Download ZIP"** para descargar el proyecto a tu computadora.
    - Extrae el archivo ZIP en la carpeta de tu elección.
+   ### 1. Clonar el repositorio
+    1.2. Usando comandos
+
+    - Clona este repositorio en tu máquina local usando el siguiente comando:
+    ```bash
+    git clone https://github.com/meybili19/EA1RestAPI.git
+    ```
+
 
 2. **Descargar Python en VS Code**:
 
