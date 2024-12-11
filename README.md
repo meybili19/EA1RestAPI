@@ -54,6 +54,13 @@ Antes de ejecutar este proyecto, asegúrate de tener instalados los siguientes p
 
    - La documentación interactiva Swagger estará disponible en `http://localhost:5000/api-docs`.
 
+## DOCKER
+
+   - docker network create apirest
+   - docker build -t meybili/restapi .
+   - docker run --name restapi-container --network apirest -p 5000:5000 restapi
+
+
 5. **Visualización de ejecución**:
 
 ![alt text](image.png)
